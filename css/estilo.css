@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+
+main{
+    margin: 0 auto;
+    width: 400px;
+    height: 800px;
+    background-color: #f6f7f9;
+}
+#linha_topo{
+    margin-bottom: 11px;
+    width: 400px;
+    height: 4px;
+    background-color: #2393F7;  
+}
+#conta{
+    font-family: 'roboto', 'sans-serif';
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 24px;
+    margin-top: -25px;
+}
+#retangulo1{
+    width: 20px;
+    height: 2px;
+    background-color: #292E32;
+    margin-left: 370px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: block;
+}
+#retangulo2{
+    width: 16px;
+    height: 2px;
+    background-color: #292E32;
+    margin-left: 374px;
+    display: block;
+    margin-bottom: 5px;
+}
+#retangulo3{
+    width: 20px;
+    height: 2px;
+    background-color: #292E32;
+    margin-left: 370px;
+    display: block;
+    margin-bottom: 5px;
+}
+#saldo{
+    font-family: 'roboto', 'sans-serif';
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: -20px;
+    background-color: #fff;
+    width: 320px;
+    height: 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+#esconder{
+    margin-left: 340px;
+    margin-top: -10px;
+    margin-bottom: -35px;
+    width: 25px;
+    opacity: 0.2;
+    cursor: pointer;
+}
+#opcoes{
+    width: 360px;
+    height: 110px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+#quadrado_cartao{
+    width: 60px;
+    height: 60px;
+    background-color: #2393F7;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 20px;    
+}
+#icone_cartao{
+    margin-left: -46px;
+    margin-bottom: 18px;  
+    color: #004FAC;
+}
+#quadrado_boleto{
+    width: 60px;
+    height: 60px;
+    background-color: #2393F7;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-top: -50px;
+}
+#icone_boleto{
+    margin-left: -46px;
+    margin-bottom: 18px; 
+    color: #004FAC;
+}
+#quadrado_transferir{
+    width: 60px;
+    height: 60px;
+    background-color: #2393F7;
+    border-radius:15px;
+    margin-left: 40px;
+    margin-top: -50px;  
+}
+#icone_transferir{
+    margin-left: -46px;
+    margin-bottom: 18px;
+    color: #004FAC;
+}
+#quadrado_gastos{
+    width: 60px;
+    height: 60px;
+    background-color: #2393F7;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-top: -50px;  
+}
+#icone_gastos{
+    margin-left: -46px;
+    margin-bottom: 18px;  
+    color: #004FAC;
+}
+#p_cartao{
+    font-family: 'roboto', 'sans-serif';
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 2px;
+    color: #67737E;
+}
+#p_boleto{
+    font-family: 'roboto', 'sans-serif';
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-top: -28px;
+    color: #67737E;
+}
+#p_transferir{
+    font-family: 'roboto', 'sans-serif';
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 195px;
+    margin-top: -28px;
+    color: #67737E;
+}
+#p_gastos{
+    font-family: 'roboto', 'sans-serif';
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 288px;
+    margin-top: -29px;
+    color: #67737E;
+}
+#transacoes_recentes{
+    font-family: 'roboto', 'sans-serif';
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 40px;
+    color: #8F99A2;
+}
+#transacoes{
+    width: 360px;
+    height: 440px;
+    background-color: #fff;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+#menos_mercado1{
+    width: 13px;
+    height: 10px;
+    background-color: #AAB3BB;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 10px ;
+    
+}
+#mercadomenos1{
+    width: 7px;
+    height: 2px;
+    background-color: #67727E;
+    margin-left: -14px;
+    margin-top: -15px;
+    margin-bottom: 4px;
+}
+#preco_mercado1{
+    color: #384148;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 16px;
+    font-weight: medium;
+    margin-left: 45px;
+    margin-top: -20px;
+}
+#data1{
+    color: #67737F;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 16px;
+    font-weight: medium;
+    margin-left: 305px;
+    margin-top: -35px;
+}
+#supermercado1{
+    color: #67737F;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 11px;
+    font-weight: medium;
+    margin-left: 35px;
+    margin-top: -10px
+}
+#hora1{
+    color: #67737F;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 11px;
+    font-weight: medium;
+    margin-left: 315px;
+    margin-top: -25px
+}
+#linha1{
+    width: 325px;
+    height: 1px;
+    background-color: #D9D9D9;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+#menos_shopping1{
+    width: 13px;
+    height: 10px;
+    background-color: #AAB3BB;
+    margin-left: 25px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    border-radius: 10px ;
+}
+#shoppingmenos{
+    width: 7px;
+    height: 2px;
+    background-color: #67727E;
+    margin-left: -10px;
+    margin-top: -25px;
+    margin-bottom: 9px;
+}
+
+#preco_shopping1{
+    color: #384148;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 16px;
+    font-weight: medium;
+    margin-left: 45px;
+    margin-top: -25px;
+}
+#data2{
+    color: #67737F;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 16px;
+    font-weight: medium;
+    margin-left: 305px;
+    margin-top: -35px;
+}
+#shopping{
+    color: #67737F;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 11px;
+    font-weight: medium;
+    margin-left: 35px;
+    margin-top: -10px
+}
+#hora2{
+    color: #67737F;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 11px;
+    font-weight: medium;
+    margin-left: 315px;
+    margin-top: -25px
+}
+#linha2{
+    width: 325px;
+    height: 1px;
+    background-color: #D9D9D9;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+#mais_pix{
+    width: 13px;
+    height: 10px;
+    background-color: #C6FF62;
+    margin-left: 25px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    border-radius: 10px ;
+}
+#pixmais{
+    width: 8px;
+    height: 2px;
+    background-color: #67727E;
+    margin-left: -14px;
+    margin-top: -25px;
+    margin-bottom: 9px;
+}
+#pixmais2{
+    width: 2px;
+    height: 6px;
+    background-color: #67727E;
+    margin-left: -9px;
+    margin-top: -15px;
+    margin-bottom: 7px;
+}
+#pix{
+    color: #384148;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 16px;
+    font-weight: medium;
+    margin-left: 45px;
+    margin-top: -25px;
+}
+#data3{
+    color: #67737F;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 16px;
+    font-weight: medium;
+    margin-left: 305px;
+    margin-top: -35px;
+}
+#pix_ana{
+    color: #67737F;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 11px;
+    font-weight: medium;
+    margin-left: 35px;
+    margin-top: -10px
+}
+#hora3{
+    color: #67737F;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 11px;
+    font-weight: medium;
+    margin-left: 315px;
+    margin-top: -25px
+}
+#linha3{
+    width: 325px;
+    height: 1px;
+    background-color: #D9D9D9;
+    margin-left: 25px;
+    margin-bottom: 15px;
+
+}
+#menos_farmacia{
+    width: 13px;
+    height: 10px;
+    background-color: #AAB3BB;
+    margin-left: 25px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    border-radius: 10px ;
+}
+#farmaciamenos{
+    width: 7px;
+    height: 2px;
+    background-color: #67727E;
+    margin-left: -10px;
+    margin-top: -15px;
+    margin-bottom: 9px;
+}
+#preco_farmacia{
+    color: #384148;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 16px;
+    font-weight: medium;
+    margin-left: 45px;
+    margin-top: -25px;
+}
+#data4{
+    color: #67737F;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 16px;
+    font-weight: medium;
+    margin-left: 305px;
+    margin-top: -35px;
+}
+#farmacia{
+    color: #67737F;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 11px;
+    font-weight: medium;
+    margin-left: 35px;
+    margin-top: -10px
+}
+#hora4{
+    color: #67737F;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 11px;
+    font-weight: medium;
+    margin-left: 315px;
+    margin-top: -25px
+}
+#linha4{
+    width: 325px;
+    height: 1px;
+    background-color: #D9D9D9;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+#menos_mercado2{
+    width: 13px;
+    height: 10px;
+    background-color: #AAB3BB;
+    margin-left: 25px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    border-radius: 10px ;
+}
+#mercadomenos2{
+    width: 7px;
+    height: 2px;
+    background-color: #67727E;
+    margin-left: -14px;
+    margin-top: -15px;
+    margin-bottom: 9px;
+}
+#preco_mercado2{
+    color: #384148;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 16px;
+    font-weight: medium;
+    margin-left: 45px;
+    margin-top: -25px;
+}
+#data5{
+    color: #67737F;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 16px;
+    font-weight: medium;
+    margin-left: 305px;
+    margin-top: -35px;
+}
+#mercado2{
+    color: #67737F;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 11px;
+    font-weight: medium;
+    margin-left: 35px;
+    margin-top: -10px
+}
+#hora5{
+    color: #67737F;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 11px;
+    font-weight: medium;
+    margin-left: 315px;
+    margin-top: -25px
+}
+#linha5{
+    width: 325px;
+    height: 1px;
+    background-color: #D9D9D9;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+#mais_transferencia{
+    width: 13px;
+    height: 10px;
+    background-color: #C6FF62;
+    margin-left: 25px;
+    margin-top: -220px;
+    margin-bottom: 5px;
+    border-radius: 10px ;
+}
+#transferencia{
+    width: 8px;
+    height: 2px;
+    background-color: #67727E;
+    margin-left: -10px;
+    margin-top: -25px;
+    margin-bottom: 9px;
+}
+
+#transferencia_2{
+    width: 2px;
+    height: 6px;
+    background-color: #67727E;
+    margin-left: -5px;
+    margin-top: -25px;
+    margin-bottom: 7px;
+}
+#preco_transferencia{
+    color: #384148;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 16px;
+    font-weight: medium;
+    margin-left: 45px;
+    margin-top: -25px;
+}
+#data6{
+    color: #67737F;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 16px;
+    font-weight: medium;
+    margin-left: 305px;
+    margin-top: -35px;
+}
+#transferencia2{
+    width: 120px;
+    color: #67737F;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 11px;
+    font-weight: medium;
+    margin-left: 35px;
+    margin-top: -10px
+}
+#hora6{
+    color: #67737F;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 11px;
+    font-weight: medium;
+    margin-left: 315px;
+    margin-top: -25px
+}
+#linha6{
+    width: 325px;
+    height: 1px;
+    background-color: #D9D9D9;
+    margin-left: 25px;
+    margin-bottom: 15px;
+
+}
+
+#menos_mercado3{
+    width: 13px;
+    height: 10px;
+    background-color: #AAB3BB;
+    margin-left: 25px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    border-radius: 10px ;
+}
+#mercadomenos3{
+    width: 7px;
+    height: 2px;
+    background-color: #67727E;
+    margin-left: -10px;
+    margin-top: -15px;
+    margin-bottom: 9px;
+}
+#preco_mercado3{
+    color: #384148;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 16px;
+    font-weight: medium;
+    margin-left: 45px;
+    margin-top: -25px;
+}
+#data7{
+    color: #67737F;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 16px;
+    font-weight: medium;
+    margin-left: 305px;
+    margin-top: -35px;
+}
+#mercado3{
+    color: #67737F;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 11px;
+    font-weight: medium;
+    margin-left: 35px;
+    margin-top: -10px
+}
+#hora7{
+    color: #67737F;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 11px;
+    font-weight: medium;
+    margin-left: 315px;
+    margin-top: -25px
+}
